@@ -16,7 +16,7 @@ class StatisticServiceTest {
         long actual = service.findMax(incomesInBillions);
 
         assertEquals(expected, actual);
-    }
+     }
 
     @Test
     void findMaxFromMin() {
